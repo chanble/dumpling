@@ -20,6 +20,7 @@
   },
   "homepage": "https://github.com/chanble/dumpling#readme",
   "devDependencies": {
-    "electron": "^4.0.6"
+    "electron": "^4.0.6",
+    "mocha": "^6.0.2"
   }
 }
