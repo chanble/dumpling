@@ -2,9 +2,10 @@
   "name": "dumpling",
   "version": "0.0.1",
   "description": "dumpling project",
-  "main": "main.js",
+  "main": "src/main.js",
   "scripts": {
-    "test": "mocha"
+    "test": "mocha",
+    "start": "electron ."
   },
   "repository": {
     "type": "git",
@@ -20,7 +21,9 @@
   },
   "homepage": "https://github.com/chanble/dumpling#readme",
   "devDependencies": {
+    "devtron": "^1.4.0",
     "electron": "^4.0.6",
+    "electron-builder": "^20.38.5",
     "mocha": "^6.0.2"
   }
 }
